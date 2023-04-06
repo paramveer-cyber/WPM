@@ -1,0 +1,256 @@
+.textarea_{
+  font-family: 'Cascadia Code';
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.time{opacity: 0;}
+.timer_vid{
+  height: 280px;
+  width: 400px;
+  position: absolute;
+  left: 76%;
+  border-radius: 80px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #393939; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #aaa; 
+  border-radius: 10px;
+}
+
+body {
+  background-color: #191919;
+  scroll-behavior: smooth;
+}
+
+.alert {
+  position: fixed;
+  width: 100%;
+  bottom: -15px;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: #00656a!important;
+}
+
+textarea {
+  background-color: transparent;
+  font-family: 'Cascadia Code';
+  border-color: transparent;
+  height: 390%!important;
+  position: absolute;
+  border-style: none;
+  line-height: 4.49;
+  border-width: 0px;
+  font-size: 35px;
+  width: 1100px;
+  resize: none;
+  top: 190px;
+  left: 9.6%;
+}
+
+.box {
+  display: flex;
+}
+
+.time_ {
+  margin-left: auto;
+}
+
+.navbar {
+  border-radius: 8px;
+  height: 80px;
+  top: -8px;
+  font-size: large;
+}
+
+.box { 
+  color: #fff;
+}
+
+.wpm {
+  position: absolute;
+  color: #fff;
+}
+
+h2 {
+  line-height: 5!important;
+  text-align: justify;
+  width: 1000px;
+  text-decoration: underline;
+  transition: ease-in;
+}
+
+.circle1{
+  background: green;
+  position: absolute;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  opacity: 0.6;
+  top: 20%;
+  left: 20%;
+}
+
+.circle2{
+  background: red;
+  position: absolute;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  opacity: 0.6;
+  top: 20%;
+  left: 40%;
+}
+
+.circle3{
+  background: rgb(0, 179, 255);
+  position: absolute;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  opacity: 0.6;
+  top: 20%;
+  left: 66.5%;
+}
+
+.line1{
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+  left: 57%;
+  top: 28%;
+}
+
+.line2{
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+  left: 57%;
+  top: 34%;
+}
+
+.line3{
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  width: 138px;
+  height: 10px;
+  left: 22%;
+  top: 32.5%;
+}
+
+.line4{
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  width: 80px;
+  height: 25px;
+  left: 34%;
+  top: 32%;
+}
+
+.line5{
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  width: 138px;
+  height: 10px;
+  left: 42%;
+  top: 32.5%;
+}
+
+.line6{
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  width: 138px;
+  height: 10px;
+  left: 68.5%;
+  top: 32.5%;
+}
+
+.crect{
+  color: white;
+  font-family: 'Cascadia Code';
+  font-size: 48px;
+  position: absolute;
+  left: 23.5%;
+  top: 24%;
+}
+
+.crect_char{
+  color: white;
+  font-family: 'Cascadia Code';
+  font-size: 28px;
+  width: 165px;
+  text-align: center;
+  position: absolute;
+  left: 21%;
+  top: 34%;
+}
+
+.wron{
+  color: white;
+  font-family: 'Cascadia Code';
+  font-size: 48px;
+  position: absolute;
+  left: 45.5%;
+  top: 24%;
+}
+
+.wron_char{
+  color: white;
+  font-family: 'Cascadia Code';
+  font-size: 28px;
+  width: 165px;
+  text-align: center;
+  position: absolute;
+  left: 41%;
+  top: 34%;
+}
+
+.wpm_{
+  color: white;
+  font-family: 'Cascadia Code';
+  font-size: 48px;
+  position: absolute;
+  left: 71%;
+  top: 24%;
+}
+
+.wpm_char{
+  color: white;
+  font-family: 'Cascadia Code';
+  font-size: 45px;
+  width: 165px;
+  text-align: center;
+  position: absolute;
+  left: 67.5%;
+  top: 34%;
+}
+
+.btnn{
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  width: 22%;
+  font-family: 'Cascadia code';
+  font-size: 25px;
+}
+
+textarea:focus{
+  outline: none !important;
+  border-color: transparent;
+}
